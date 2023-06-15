@@ -1,0 +1,2533 @@
+body {
+	background: ;
+	font-size:px;
+	font-family: Roboto, sans-serif;
+	color:#000000 ;
+	margin: 0;
+
+}
+
+*, 
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 { /*ЗАГОЛОВОК*/
+	margin: 0;
+}
+
+/* Container*/
+.container {
+	
+}
+
+
+.header__logo{
+	margin-left: 45px;
+}
+
+/*oneblok*/
+.oneblok{
+	width: 100%; /*ШИРИНА*/
+	height: 700px; /*ВЫСОТА*/
+	
+left: 0px;
+top: 0px;
+
+background: #E2D6C7;
+	-
+	margin: 0;
+}
+
+
+
+/*Фотографии с первой страницы с кофе*/
+.pp{
+	position: absolute;
+width: 550px;
+height: 550px;
+left: 650px;
+top: 91px;
+}
+
+
+.ppp{
+	position: absolute;
+width: 145px;
+height: 155px;
+left: 600px;
+top: 370px;
+}
+
+.pppp{
+width: 150px;
+height: 200px;
+left: 0px;
+top: 0px;
+position: absolute;
+}
+.ppppp{
+	position: absolute;
+width: 310px;
+height: 380px;
+left:1000px;
+top: -33px;
+}
+
+.pppppp{
+	width: 150px;
+height: 200px;
+left: -10px;
+top: 200px;
+position: absolute;
+}
+
+.ppppppp{
+	position: absolute;
+width: 250px;
+height: 250px;
+left: 1060px;
+top: 410px;
+}
+
+/* Кафе-библиотека book-cafe */
+.intro__title{
+	width: 364px;
+height: 98px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 140%;
+padding-top: 170px;
+margin-left:100px;
+
+}
+
+
+/*Ваше место, где можно хорошо провести время читая книги в уютной атмосферы, попивая кофе.<br>Наша библиотека  с книгами и уютные диванчики всегда в вашем распоряжение для вашего комфорта и приятного времяпровождения.*/
+.intro__titlee{
+width: 445px;
+height: 105px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 140%;
+/* or 21px */
+letter-spacing: 0.05em;
+margin-left:100px;
+padding-top:150px;
+
+color: #000000;
+}
+
+
+/*header ШАПКА САЙТА НАВЕГАТОР*/
+.header{
+	width: 100%;
+	padding-top: 0px; /*ОТСТУП СВЕРХУ*/
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0;
+	z-index: 1000; /*Поверх*/
+ }
+
+.header__inner{
+	display: flex;
+	text-align: justify;/*ЗАЙМУТ МЕСТА ПО БОКАМ */
+	align-items: center;  /*ВЫРАВНИВАЕТ ПО ЦЕНТРУ*/
+
+}
+
+
+
+
+ /*nav НАВИГАЦИЯ*/
+ .nav{
+ 	top:50px;
+ 	margin-left:  150px;
+ 	position: center;
+ 	font-family: Roboto;
+ 	font-size: 15px;
+ 	text-transform: uppercase; /* Широкий размер шрифта капс*/
+ 	
+	
+}
+
+.nav__link{
+	display: inline-block;
+ 	vertical-align: top;
+ 	margin: 40px; /* ОТСТУПЫ ОТ КАЖДОГО СЛОВА НАВИГАТОРА*/
+
+	color:#000000;
+	
+	
+   
+
+	transition: color .2s linear;
+}
+
+
+
+
+/*Кнопки главной страницы О нас и Нашее меню*/
+.button{
+    margin: 20px;
+    margin-top: 215px;
+    margin-left:100px;  /*ОТСТУП СЛЕВА*/
+
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px; /* Поля вокруг текста */
+
+    border: 2px solid #6f4e37 ;/*Поля и цвет полей, рамки*/
+
+    font-size: 15px;
+    font-weight: 700;
+    color:#6f4e37;
+    text-transform: uppercase;
+    text-decoration: none;/* Убираем подчёркивание */
+    border-radius: 5px; /* Скругляем уголки */
+}
+
+
+
+/*2 ЭКРАН НА ПЕРВОЙ СТРАНИЦЕ ФОН С ФОТО*/
+.section{
+	width: 100%; /*ШИРИНА*/
+	height: 700px; /*ВЫСОТА*/
+	
+background: url("../images/2 экран.png") center no-repeat;
+	
+	-webkit- background-size: cover;
+	 background-size: cover;
+	margin: 0;
+}
+
+
+
+
+
+/* Еда. */
+.food{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+
+margin-right:100px;
+padding-top:150px;
+text-align:right;
+}
+
+
+/* Легкие блюда, завтраки, десерты */
+.foodd{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+margin-right:100px;
+text-align:right;
+padding-top:60px;/*отступ сверху*/
+padding-bottom:; /*отступ снизу*/
+}
+
+
+
+/* БЛЮДА ИЗ СВЕЖИХ ПРОДУКТов, ВСКУСНЫЕ И ПОЛЕЗНЫЕ, ВЫ НАЙДЕТЕ ДЛЯ СЕБЯ ТО ЧТО ВАМ ПОНРАВИТСЯ И ПРИДЕТСЯ ПО ВКУСУ */
+.fooddd{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 29px;
+/* or 21px */
+letter-spacing: 0.05em;
+
+color: #000000;
+
+margin-right:100px;
+text-align:right;
+padding-top:40px;/*отступ сверху*/
+padding-bottom:; /*отступ снизу*/
+}
+
+
+
+.buttonn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px; /* Поля вокруг текста */
+
+    border: 2px solid #6f4e37 ;/*Поля и цвет полей, рамки*/
+
+    font-size: 15px;
+    font-weight: 700;
+    color:#6f4e37;
+    text-transform: uppercase;
+    text-decoration: none;/* Убираем подчёркивание */
+    border-radius: 5px; /* Скругляем уголки */
+    margin: 70px;
+   margin-left:1010px;  /*ОТСТУП СЛЕВА*/
+    text-align:right;
+}
+
+
+
+
+/*3 ЭКРАН НА ПЕРВОЙ СТРАНИЦЕ ФОН С ФОТО*/
+.picters{
+	width: 100%; /*ШИРИНА*/
+	height: 700px; /*ВЫСОТА*/
+	background: url("../images/третий экран.png") center no-repeat;
+	-webkit- background-size: cover;
+	 background-size: cover;
+	margin: 0;
+}
+
+
+/* Напитки. */
+.drink{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+margin-left:100px;
+padding-top:150px;
+text-align:left;
+}
+
+
+/* ГОРЯЧИЕ И ХОЛОДНЫЕ НАПИТКИ */
+.drinkk{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+margin-left:100px;
+padding-top:60px;
+text-align:left;
+}
+
+/* НАШИ БАРИСТА ПРИГОТОВЯТ ДЛЯ ВАС ВКУСНЕЙШИЙ КОФЕ ИЛИ ЖЕ ДРУГОЙ НАПИТОК КОТОРЫЙ ВЫ ЗАХОТИТЕ */
+.drinkkk{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 29px;
+letter-spacing: 0.05em;
+
+color: #000000;
+margin-left:100px;
+padding-top:40px;
+text-align:left;
+}
+
+
+
+.buttonnn{
+	display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px; /* Поля вокруг текста */
+
+    border: 2px solid #6f4e37 ;/*Поля и цвет полей, рамки*/
+
+    font-size: 15px;
+    font-weight: 700;
+    color:#6f4e37;
+    text-transform: uppercase;
+    text-decoration: none;/* Убираем подчёркивание */
+    border-radius: 5px; /* Скругляем уголки */
+    margin: 70px;
+   margin-left:100px;  /*ОТСТУП СЛЕВА*/
+    text-align:left;
+}
+
+/*ГЛАВНАЯ СТРАНИЦА САЙТА*/
+.frame{
+	position: absolute;
+width: 100%;
+height: 562px;
+left: 0px;
+top: 2100px;
+	background-color: #E2D6C7;
+}
+
+
+/*ФОТОГРАФИЯ С КОФЕ ВНИЗУ*/
+.fourr{
+	float: right; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+    margin: 20px;
+   margin-left:1010px;  /*ОТСТУП СЛЕВА*/
+    text-align:right;
+    margin-top: 20px;  
+}
+
+
+/* Загляните, чтобы перекусить и хорошо провести время . */
+.fourrr{
+	position: absolute;
+height: 50px;
+left: 250px;
+top: 100px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+
+/* Адресс */
+.fourrrr{
+	position: absolute;
+width: 122px;
+height: 44px;
+left: 310px;
+top: 240px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+
+/*ПЕРВАЯ ФОТОГРАФИЯ С КОФЕ*/
+.img{
+	float: left; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+    margin: 20px;
+   margin-left:10px;  /*ОТСТУП СЛЕВА*/
+    text-align:left;
+    margin-top: 0px; 
+}
+
+.fourrrrr{
+	position: absolute;
+width: 226px;
+height: 44px;
+left: 820px;
+top: 239px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+
+/* Понедельник-Пятница: 9:00-20:00 Суббота-Воскресенье: 9:00-18:00 */
+.fourrrrrr{
+  position: absolute;
+width: 384px;
+height: 148px;
+left: 800px;
+top: 310px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+
+/* улица Абая 243 */
+.fourrrrrrr{
+position: absolute;
+width: 242px;
+height: 32px;
+left: 280px;
+top: 310px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+
+/*ФРЕЙМ С ПЯТЬЮ КАРТИНКАМИ*/
+.five{
+position: absolute;
+width: 100%;
+height: 400px;
+left: 0px;
+top: 2662px;
+
+background: #FFFFFF;
+}
+
+/*ФРЭЙМ С КОНТАКТАМИ ЗАВЕДЕНИЯ*/
+
+.six{
+	position: absolute;
+width: 100%;
+height: 300px;
+left: 0px;
+top: 3062px;
+
+background: #E2D6C7;
+}
+
+/*ЛОГОТИП BOOKCAFE*/
+.logo{
+position: absolute;
+width: 200px;
+height: 140px;
+left: 0px;
+top: 85px;
+}
+
+
+/*КАРТИНКА КОФЕ СПРАВА*/
+.loggo{
+	position: absolute;
+left: 1090px;
+top: 11px;
+}
+
+
+/* Свяжитесь с нами */
+.contacts{
+	position: absolute;
+width: 312px;
+height: 43px;
+left: 250px;
+top: 71px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 140%;
+/* or 42px */
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+/* Адресс.... */
+.adress{
+	position: absolute;
+width: 312px;
+height: 18px;
+left: 250px;
+top: 127px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+/* Instagram:_bookcafe_ */
+.instagram{
+	position: absolute;
+width: 312px;
+height: 42px;
+left: 250px;
+top: 169px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+/* +7(747) 738-23-54 */
+.phone{
+	position: absolute;
+width: 187px;
+height: 28px;
+left: 900px;
+top: 128px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+/* identical to box height, or 28px */
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+/* bookcafe@gmail.com */
+.inst{
+	position: absolute;
+width: 187px;
+height: 26px;
+left: 900px;
+top: 169px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+/* or 21px */
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+/*НАВИГАТОР НА СТРАНИЦЕ О НАС */
+.onas{
+	position: center;
+width: 100%;
+height: 100px;
+left: 0px;
+top: 0px;
+
+background: #E2D6C7;
+}
+
+.ona{
+	margin-top: -20px;
+}
+.navs{
+	position: center;
+margin-left: 350px; 
+	font-family: Roboto;
+ 	font-size: 15px;
+ 	text-transform: uppercase; /* Широкий размер шрифта капс*/
+ 	margin-top:-30px;
+
+}
+.oness{
+	display: inline-block;
+ 	vertical-align: top;
+ 	margin: 40px; /* ОТСТУПЫ ОТ КАЖДОГО СЛОВА НАВИГАТОРА*/
+
+	color:#000000;
+	text-decoration: none;
+
+	transition: color .2s linear;
+}
+
+
+/*2 ПОДСТРАНИЦА В "О НАС" РАЗМЕРЫ ЭТОЙ СТРАНИЦЫ*/
+.ceven{
+position: absolute;
+width: 100%;
+height: 315px;
+left: 0px;
+top: 100px;
+
+background: rgba(226, 214, 199, 0.5);
+}
+
+/* О нас Мы твердо верим в силу хорошей еды и дружелюбного места, в то что в нашем кафе вы не только сможете перекусить, но и приятно провести время за книжкой любоезно предоставленной нашей библиотекой или делая какие-то свои дела. */
+.cevenn{
+	position: absolute;
+width: 800px;
+height: 208px;
+left: 272px;
+top: -15px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 140%;
+/* or 42px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+
+
+/*3 ПОДСТРАНИЦА НА СТРАНИЦЕ "О НАС"*/
+.eight{
+	position: absolute;
+width: 100%;
+height: 600px;
+left: 0px;
+top: 400px;
+
+background: #FFFFFF;
+}
+
+/*КНОПАКА УЗНАТЬ БОЛЬШЕ*/
+.buttonnnn{
+        display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px; /* Поля вокруг текста */
+
+    border: 2px solid #6f4e37 ;/*Поля и цвет полей, рамки*/
+
+    font-size: 15px;
+    font-weight: 700;
+    color:#6f4e37;
+    text-transform: uppercase;
+    text-decoration: none;/* Убираем подчёркивание */
+    border-radius: 5px; /* Скругляем уголки */
+    margin: 70px;
+   margin-left:700px;  /*ОТСТУП СЛЕВА*/
+   margin-top: -100px;
+    text-align:right;
+    
+}
+
+/* Приятная атмосфера */
+.eightt{
+	position: absolute;
+width: 400px;
+height: 50px;
+left: 670px;
+top: 63px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 140%;
+/* or 49px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+/* Загляните к нам за прекрасными эмоциями, свежимы блюдами, вкуснейшим кофе, и комфортной обстановки, где вы сможете воспользоваться нашей библиотекой для приятного времяпровождения за прочтением книги, все это преправлено теплой улыбкой и заряжающим настроенем. */
+.eighttt{
+	position: absolute;
+width: 534px;
+height: 313px;
+left: 700px;
+top: 136px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 140%;
+/* or 35px */
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+/* РАЗМЕР 4 ПОДСТРАНИЦЫ*/
+.pict{
+	position: absolute;
+width: 100%;
+height: 800px;
+left: 0px;
+top: 600px;
+
+background: #FFFFFF;
+}
+
+/*НИЖНИЙ НАВИГАТОР В КОНЦЕ СТРАНЦЫ*/
+.sixxx{
+	position: absolute;
+width: 100%;
+height: 300px;
+left:0px;
+top: 1100px;
+
+background: #E2D6C7;
+}
+
+.text-decoration{
+	margin-left: 800px;
+	margin-top: 63px;
+}
+
+.contactss{
+	position: absolute;
+width: 100%;
+height: 550px;
+left:0px;
+
+background: rgba(226, 214, 199, 0.5);
+
+}
+.form-group{
+margin-left:200px;
+}
+
+
+.ad{
+	position: absolute;
+width: 50px;
+height: 50px;
+left: 80px;
+top: 63px;
+}
+
+.kontt{
+
+position: absolute;
+width: 200px;
+height: 100px;
+left: 80px;
+top: 110px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+
+.kont{
+position: absolute;
+width: 50px;
+height: 50px;
+left: 450px;
+top: 63px;
+}
+
+.tel{
+	position: absolute;
+width: 200px;
+height: 36px;
+left: 450px;
+top: 140px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+.st{
+	position: absolute;
+width: 116px;
+height: 40px;
+left: 450px;
+top: 418px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+.em{
+	position: absolute;
+width: 63px;
+height: 25px;
+left: 80px;
+top: 418px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+.email{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 80px;
+top: 326px;
+}
+
+.inss{
+	position: absolute;
+width: 50px;
+height: 50px;
+left: 450px;
+top: 326px;
+}
+
+
+
+/*Шапка на странице "Наше меню"*/
+.sixxxх{
+		position: absolute;
+width: 100%;
+height: 300px;
+left: 0px;
+top: 650px;
+
+background: #E2D6C7;
+}
+
+
+
+/*Блок с надпись "Наше меню"*/
+.ourmenu{
+	position: absolute;
+width: 100%;
+height: 100px;
+left: 0px;
+top: 100px;
+
+background: rgba(226, 214, 199, 0.5);
+}
+
+
+/*Расположение фразы "наше меню"*/
+.menu{
+	position: absolute;
+width: 275px;
+height: 46px;
+left: 517px;
+top: 25px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 45px;
+line-height: 140%;
+/* or 63px */
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+/*Картинка с кофе*/
+.ab{ 
+	position: absolute; 
+	width: 90px; 
+	height: 90px; 
+	left: 105px; 
+	top: -5px;
+
+background: url(image.png);
+transform: rotate(54.56deg);
+}
+
+/*Картинка с кофе*/
+.add{
+	position: absolute;
+width: 90px;
+height: 90px;
+left: 135px;
+top: 25px;
+
+background: url(image.png);
+}
+
+/*Картинка с кофе*/
+.addd{
+	position: absolute;
+width: 90px;
+height: 90px;
+left: 160px;
+top: -20px;
+
+background: url(image.png);
+transform: rotate(106.05deg);
+}
+
+
+
+/*Картинка с кофе*/
+.adddd{
+	position: absolute;
+width: 90px;
+height: 90px;
+left: 1145px;
+top: 16px;
+
+background: url(image.png);
+transform: rotate(151.6deg);
+
+}
+
+/*Картинка с кофе*/
+.ak{
+
+position: absolute;
+width: 90px;
+height: 90px;
+left: 1180px;
+top: -20px;
+
+background: url(image.png);
+
+}
+
+
+/*Картинка с кофе*/
+.akk{
+	position: absolute;
+width: 90px;
+height: 90px;
+left: 1220px;
+top: 30px;
+
+background: url(image.png);
+transform: matrix(0.97, -0.23, -0.23, -0.97, 0, 0);
+}
+
+
+
+/*Напитки*/
+.p{
+	position: absolute;
+width: 144px;
+height: 42px;
+left: 576px;
+top: 220px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 140%;
+/* identical to box height, or 42px */
+letter-spacing: 0.05em;
+
+}
+
+.l{
+	position: absolute;
+width: 110px;
+height: 0px;
+left: 595px;
+top: 280px;
+
+border: 1px solid #000000;
+
+}
+
+
+/* Эспрессо метод приготовления кофе путём прохождения горячей воды под давлением через фильтр с молотым кофе */
+.iss{
+	position: absolute;
+width: 346px;
+height: 174px;
+left: 33px;
+top: 340px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+/*способ приготовления кофе, заключающийся в соединении определённого количества горячей воды и эспрессо */
+.amm{
+	position: absolute;
+width: 346px;
+height: 174px;
+left: 489px;
+top: 315px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+
+/* Капучино кофейный напиток итальянской кухни на основе эспрессо с добавлением в него подогретого вспененного молока */
+.kap{
+	position: absolute;
+width: 346px;
+height: 174px;
+left: 937px;
+top: 315px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+
+/* Макиато кофейный напиток, изготавливаемый путем добавления к эспрессо минимального количества молока, обычно взбитого */
+.mac{
+	position: absolute;
+width: 351px;
+height: 193px;
+left: 33px;
+top: 560px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+/* Латте кофейный напиток, на основе молока, представляющий собой трёхслойную смесь из пены, молока и кофе эспрессо */
+.lat{
+ position: absolute;
+width: 329px;
+height: 168px;
+left: 489px;
+top: 560px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;	
+}
+
+
+/* Латте Макиато горячий кофейный напиток, приготавливаемый путём вливания в молоко кофе-эспрессо в пропорции 3:1 */
+.latte{
+position: absolute;
+width: 310px;
+height: 169px;
+left: 947px;
+top: 560px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+/*картинка кофе*/
+.cf{
+	position: absolute;
+width:90px;
+height: 90px;
+left: 930px;
+top: 565px;
+
+background: url(image.png);
+transform: rotate(78.04deg);
+}
+
+
+/*картинка кофе*/
+.cff{
+	position: absolute;
+width: 90px;
+height: 90px;
+left: 885px;
+top: 630px;
+
+background: url(image.png);
+}
+
+/*картинка кофе*/
+.cfff{
+position: absolute;
+width: 90px;
+height: 90px;
+left: 383.88px;
+top: 800px;
+
+background: url(image.png);
+transform: rotate(-90.79deg);
+}
+
+/*картинка кофе*/
+.cffff{
+	position: absolute;
+width: 90px;
+height: 90px;
+left: 447.05px;
+top: 870px;
+
+background: url(image.png);
+transform: rotate(146.33deg);
+
+}
+
+
+/* Фрапучино Обязательными ингредиентами являются эспрессо, молоко и лед, которые взбиваются в блендере */
+.fr{
+position: absolute;
+width: 335px;
+height: 163px;
+left: 33px;
+top: 800px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+/* Раф кофейный напиток, готовится путём добавления нагретых паром сливок с небольшим количеством пены (0,5 см) в одиночную порцию эспрессо. Часто подаётся с сиропом. */
+.raf{
+ position: absolute;
+width: 310px;
+height: 223px;
+left: 508px;
+top: 800px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+/* Какао напиток, в состав которого обязательно входит размолотое какао, а также молоко и сахар */
+.cacao{
+	position: absolute;
+width: 302px;
+height: 167px;
+left: 955px;
+top: 800px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+/* Холодный Кофе способ подачи кофейных напитков, подается со льдом. */
+.ti{
+	position: absolute;
+width: 296px;
+height: 137px;
+left: 55px;
+top: 1050px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+/* Матча-Латте готовят на основе порошка матча, взбитого или смешанного с горячей водой, затем доливают взбитое молоко(овсяное, миндальное и т.д.) */
+.mat{
+	position: absolute;
+width: 314px;
+height: 219px;
+left: 508px;
+top: 1050px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+/*картинка кофе*/
+.ka{
+	position: absolute;
+width: 90px;
+height: 90px;
+left: 886.18px;
+top: 1100px;
+
+background: url(image.png);
+transform: rotate(-12.25deg);
+
+}
+
+/*картинка кофе*/
+.kaa{
+	position: absolute;
+width: 90px;
+height: 90px;
+left: 936.05px;
+top: 1160px;
+
+background: url(image.png);
+transform: rotate(-65.41deg);
+
+}
+
+/*картинка кофе*/
+.kaaa{
+	position: absolute;
+width: 85px;
+height: 80px;
+left: 900px;
+top: 1230px;
+
+background: url(image.png);
+transform: rotate(153.43deg);
+
+}
+
+
+/* Матча-Эспрессо Латте с зеленым матча и кофе эспрессо */
+.matC{
+position: absolute;
+width: 281px;
+height: 112px;
+left: 974px;
+top: 1050px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+
+/* Черный Чай С Молоком Заваренный свежий чай с добавлением молока и сахара */
+.tea{
+	position: absolute;
+width: 277px;
+height: 170px;
+left: 55px;
+top: 1310px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+
+/* Фруктовый Или Травяной Чай черный чай с добавление различных трав и фруктов по вкусу */
+.teaf{
+	position: absolute;
+width: 310px;
+height: 136px;
+left: 950px;
+top: 1310px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+
+/* Чай с Лимоном очень полезный напиток, который помогает согреть организм, утолить жажду, придает бодрости и сил, а также насыщает организм витамином С и укрепляет иммунитет */
+.teal{
+	position: absolute;
+width: 330px;
+height: 246px;
+left: 490px;
+top: 1310px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+
+/* Клюквенный Чай черный чай из клюквы с добавлением меда и апельсина */
+.kl{
+	position: absolute;
+width: 236px;
+height: 131px;
+left: 75px;
+top: 1590px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+/* Облепиховый Чай Ароматный и очень вкусный чай который обладает противовоспалительным и антистрессовым действием. */
+.obl{
+	position: absolute;
+width: 286px;
+height: 136px;
+left: 505px;
+top: 1590px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+/* Имбирный Чай напиток в котором собраны различные полезные свойства. В него добавляют мяту, лимон и мед. */
+.imb{
+	position: absolute;
+width: 276px;
+height: 131px;
+left: 970px;
+top: 1590px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+/*картинка кофе*/
+.ca{
+	position: absolute;
+width: 90px;
+height: 90px;
+left: 318px;
+top: 1578.28px;
+
+background: url(image.png);
+transform: rotate(-12.25deg);
+}
+
+
+
+
+
+
+
+/*СЛАЙДЕР С КАРТИНКАМИ*/
+.slider{
+	position: relative;
+	padding: 0px 150px;
+	top: 1600px;
+
+}
+
+.slider .slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px; 
+	z-index: 20;
+	font-size: 0;
+	width: 50px;
+	height: 50px;
+	background: #ffffff;
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+	left: 0;
+	background: url("../images/стрелка влево.png") 0 0 /100% no-repeat;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+	right: 0;
+	background: url("../images/стрелка вправо.png") 0 0 /100% no-repeat;
+}
+.slider_item{
+border-radius: 20px;
+}
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex; 
+	align-items: flex-start;
+}
+
+
+/*картинка кофе*/
+.ga{
+position: absolute;
+width: 90px;
+height: 90px;
+left: 307.97px;
+top: 2200px;
+
+background: url(image.png);
+transform: rotate(-151.92deg);
+}
+
+/*ЗАВТРАКИ*/
+.va{
+	position: absolute;
+width: 144px;
+height: 42px;
+left: 576px;
+top: 2220px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 140%;
+/* or 42px */
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+
+/*линия на странице*/
+.line{
+	position: absolute;
+width: 110px;
+height: 0px;
+left: 602px;
+top: 2285px;
+
+border: 1px solid #000000;
+
+}
+
+
+/* круассан с лососем 1 */
+.kr{
+	position: absolute;
+width: 303px;
+height: 115px;
+left: 77px;
+top: 2310px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+
+/* Круассан с лососем круассан, огурец, сливочный сыр, лосось, лист салата, */
+
+.kry{position: absolute;
+width: 275px;
+height: 138px;
+left: 950px;
+top: 2310px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+
+/* Овсяная каша с фруктами и семенами чиа овсяные хлопья, семяна чиа, фрукты */
+.ovs{
+position: absolute;
+width: 297px;
+height: 180px;
+left: 515px;
+top: 2310px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+/*картинка кофе*/
+.cp{
+position: absolute;
+width: 95px;
+height: 95px;
+left: 845.12px;
+top: 2500px;
+
+background: url(image.png);
+transform: rotate(-65.41deg);
+}
+
+
+
+/* Овсяная каша с ягодами овсяные хлопья, ягоды, каша на молоке */
+.ovss{
+position: absolute;
+width: 265px;
+height: 143px;
+left: 77px;
+top: 2550px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+
+
+/* Сырники творог, сахар, мука, яйца */
+.sarn{
+position: absolute;
+width: 258px;
+height: 85px;
+left: 520px;
+top: 2550px;
+
+/* Текст в параграфах */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+/* Авокадо тост цельнозерновой хлеб, авокадо, специи, лосось/яйцо */
+.avocado{
+position: absolute;
+width: 268px;
+height: 138px;
+left: 950px;
+top: 2550px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+
+
+
+/*СЛАЙДЕР С КАРТИНКАМИ*/
+.sliderr{
+	position: relative;
+	padding: 0px 150px;
+	top: 2250px;
+
+}
+
+.sliderr .slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px; 
+	z-index: 20;
+	font-size: 0;
+	width: 50px;
+	height: 50px;
+	background: #ffffff;
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+	left: 0;
+	background: url("../images/стрелка влево.png") 0 0 /100% no-repeat;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+	right: 0;
+	background: url("../images/стрелка вправо.png") 0 0 /100% no-repeat;
+}
+.slider_iten{
+border-radius: 20px;
+}
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex; 
+	align-items: flex-start;
+}
+
+
+/*картинка кофе*/
+.rt{
+position: absolute;
+width: 90px;
+height: 90px;
+left: 1100px;
+top: 3120px;
+
+background: url(image.png);
+transform: rotate(14.92deg);
+}
+
+
+/*картинка кофе*/
+.rtt{
+position: absolute;
+width: 95px;
+height: 95px;
+left: 1150px;
+top: 3100px;
+
+background: url(image.png);
+transform: rotate(-41.92deg);
+}
+
+
+/* Салаты */
+.salat{
+position: absolute;
+width: 149px;
+height: 39px;
+left: 577px;
+top: 3150px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 140%;
+/* or 42px */
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+/*Линия*/
+.ty{
+	position: absolute;
+width: 110px;
+height: 0px;
+left: 598px;
+top: 3212px;
+
+border: 1px solid #000000;
+
+}
+
+
+
+/* Салат «Греческий» салат приготовленный из свежих овощей, листьев салата, брынзы и маслин, приправленный оливковым маслом и соком лимона */
+.sal{
+position: absolute;
+width: 315px;
+height: 190px;
+left: 85px;
+top: 3240px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+/*картинка кофе*/
+.fa{
+position: absolute;
+width: 90px;
+height: 90px;
+left: 45.33px;
+top: 3500px;
+
+background: url(image.png);
+transform: rotate(-65.41deg);
+}
+
+
+/* Цезарь с курицей куриное филе, салат айсберг, салат ромен, батон, багет Французский, сыр пармезан, помидоры черри, яйцо перепелиное, перец чёрный молотый, соль, масло растительное */
+.ce{
+position: absolute;
+width: 300px;
+height: 250px;
+left: 520px;
+top: 3240px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+/* Цезарь с семгой Слабосоленая семга, помидоры черри, салат айсберг, сыр пармезан, сухарики, соус */
+.cee{
+position: absolute;
+width: 248px;
+height: 170px;
+left: 950px;
+top: 3240px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+/* Салат с вялеными помидорами и курицей салатный микс, помидоры вяленые, пармезан, чеснок сушоный, прованские травы, растительное масло, сок лимона, перец, куриная грудка */
+.pom{
+position: absolute;
+width: 380px;
+height: 225px;
+left: 60px;
+top: 3535px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+
+/* Курица миланезе Куриная грудка, зелень, картофель фри, долька лимона, помироды черри, оливковое масло, сливочный соус */
+.chicen{
+position: absolute;
+width: 295px;
+height: 194px;
+left: 520px;
+top: 3535px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+/* Салат ачик-чучук острый салат из томатов, репчатого лука, перца чили, кинзы и зелени */
+.ach{
+position: absolute;
+width: 250px;
+height: 159px;
+left: 950px;
+top: 3535px;
+
+/* Текст в параграфах */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+/*СЛАЙДЕР С КАРТИНКАМИ*/
+.sliderrr{
+	position: relative;
+	padding: 0px 150px;
+	top: 3030px;
+
+}
+
+.sliderrr .slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px; 
+	z-index: 20;
+	font-size: 0;
+	width: 50px;
+	height: 50px;
+	background: #ffffff;
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+	left: 0;
+	background: url("../images/стрелка влево.png") 0 0 /100% no-repeat;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+	right: 0;
+	background: url("../images/стрелка вправо.png") 0 0 /100% no-repeat;
+}
+.slider_itep{
+border-radius: 20px;
+}
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex; 
+	align-items: flex-start;
+}
+
+
+/*картинка кофе*/
+.er{
+position: absolute;
+width: 90px;
+height: 90px;
+left: 1182px;
+top: 3750px;
+
+background: url(image.png);
+transform: rotate(-12.25deg);
+}
+
+
+
+/* Десерты/ Выпечка */
+.deserv{
+position: absolute;
+width: 333px;
+height: 44px;
+left: 519px;
+top: 4200px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 140%;
+/* or 42px */
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+
+/*линия на странице*/
+.yt{
+position: absolute;
+width: 200px;
+height: 0px;
+left: 574px;
+top: 4270px;
+
+border: 1px solid #000000;
+transform: rotate(-0.28deg);
+}
+
+
+/*картинка кофе*/
+.op{
+position: absolute;
+width: 90px;
+height: 90px;
+left: 415px;
+top: 4250px;
+
+background: url(image.png);
+transform: rotate(39.14deg);
+}
+
+
+
+/*картинка кофе*/
+.ko{
+position: absolute;
+width: 90px;
+height: 90px;
+left: 450px;
+top: 4280px;
+
+background: url(image.png);
+transform: rotate(-65.41deg);
+}
+
+
+/* Чизкейк с черникой */
+.chis{
+position: absolute;
+width: 303px;
+height: 45px;
+left: 85px;
+top: 4300px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 42px */
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+/* Панкейки с шоколадом/ вареньем */
+.pack{
+position: absolute;
+width: 375px;
+height: 100px;
+left: 500px;
+top: 4300px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 42px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+/* Шоколадный Трайфл */
+.choc{
+position: absolute;
+width: 349px;
+height: 43px;
+left: 925px;
+top: 4300px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 42px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+
+/* Вафли с ягодным джемом */
+.vaf{
+position: absolute;
+width: 371px;
+height: 92px;
+left: 55px;
+top: 4420px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 42px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+/* Пирог “Шарлотка” */
+.cake{
+position: absolute;
+width: 362px;
+height: 43px;
+left: 500px;
+top: 4420px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 42px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+
+/* Блинчики с клубничным джемом */
+.bl{
+position: absolute;
+width: 342px;
+height: 85px;
+left: 925px;
+top: 4420px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 42px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+
+/* Блин “Тропик” Вкуснейший блинчик с нежным творожком и сочными кусочками тропических фруктов: киви, банан, ананас */
+.bll{
+position: absolute;
+width: 354px;
+height: 167px;
+left: 55px;
+top: 4550px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+
+/* Блин с вареным сгущенным молоком со вкусом топлёного молока и ириски */
+.blll{
+position: absolute;
+width: 270px;
+height: 143px;
+left: 540px;
+top: 4550px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+
+/* Блинчики со сметаной Классические, ажурные блинчики со сметанкой */
+.bllll{
+position: absolute;
+width: 260px;
+height: 156px;
+left: 960px;
+top: 4550px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 140%;
+/* or 35px */
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+
+
+/*картинка кофе*/
+.zz{
+position: absolute;
+width: 90px;
+height: 90px;
+left: 1220px;
+top: 4550px;
+
+background: url(image.png);
+transform: rotate(-25.31deg);
+}
+
+
+
+
+/*СЛАЙДЕР С КАРТИНКАМИ*/
+.sliderrrr{
+	position: relative;
+	padding: 0px 150px;
+	top: 3720px;
+
+}
+
+.sliderrrr .slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px; 
+	z-index: 20;
+	font-size: 0;
+	width: 50px;
+	height: 50px;
+	background: #ffffff;
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+	left: 0;
+	background: url("../images/стрелка влево.png") 0 0 /100% no-repeat;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+	right: 0;
+	background: url("../images/стрелка вправо.png") 0 0 /100% no-repeat;
+}
+.slider_itek{
+border-radius: 20px;
+}
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex; 
+	align-items: flex-start;
+}
+
+
+/*картинка кофе*/
+.hj{
+position: absolute;
+width: 90px;
+height: 90px;
+left: 80px;
+top: 5095px;
+
+background: url(image.png);
+transform: rotate(-65.41deg);
+}
+
+/*картинка кофе*/
+.hjj{
+position: absolute;
+width: 85px;
+height: 85px;
+left: 85px;
+top: 5140px;
+
+background: url(image.png);
+transform: rotate(-163.38deg);
+}
+
+/*картинка кофе*/
+.hjjj{
+position: absolute;
+width: 90px;
+height: 90px;
+left: 130px;
+top: 5150px;
+
+background: url(image.png);
+transform: rotate(-8.44deg);
+
+}
+
+/*Навигация в конце фрейма*/
+.sixxxxх{
+position: absolute;
+width: 100%;
+height: 300px;
+left: 0px;
+top: 5225px;
+
+background: #E2D6C7;
+}
+
+
+
+
+/*Страница с книгами*/
+.pop{
+	width: 100%; /*ШИРИНА*/
+	height: 700px; /*ВЫСОТА*/
+	top: 1200px;
+	left: 0px;
+background: url("../images/7 картинка.jpg") center no-repeat;
+	
+	-webkit- background-size: cover;
+	 background-size: cover;
+	margin: 0;
+	filter: brightness(40%);
+}
+
+.book{
+	position: absolute;
+width: 900px;
+height: 600px;
+left: 200px;
+top: 150px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 140%;
+/* or 49px */
+text-align: center;
+letter-spacing: 0.05em;
+
+text-shadow: 2px 2px 2px #000;
+	color: #ffffff;
+
+}
+
+.bb{
+	position: absolute;
+
+width: 144px;
+height: 42px;
+left: 576px;
+top: 600px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 140%;
+/* identical to box height, or 42px */
+letter-spacing: 0.05em;
+
+}
+
+.ll{
+	position: absolute;
+width: 110px;
+height: 0px;
+left: 595px;
+top: 650px;
+
+border: 1px solid #000000;
+
+}
+
+
+
+
+.sixxxxxx{
+	position: absolute;
+width: 100%;
+height: 300px;
+left: 0px;
+top: 800px;
+
+background: #E2D6C7;
+}
+}
